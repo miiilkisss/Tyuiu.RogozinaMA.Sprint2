@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Tyuiu.RogozinaMA.Sprint2.Task0.V25.Lib;
-  
+
 namespace Tyuiu.RogozinaMA.Sprint2.Task0.V25
 {
     internal class Program

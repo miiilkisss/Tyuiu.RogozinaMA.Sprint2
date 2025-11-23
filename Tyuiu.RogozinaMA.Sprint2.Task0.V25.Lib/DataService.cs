@@ -1,7 +1,6 @@
 ﻿using System;
 using tyuiu.cources.programming.interfaces.Sprint2;
 
-
 namespace Tyuiu.RogozinaMA.Sprint2.Task0.V25.Lib
 {
     public class DataService : ISprint2Task0V25
@@ -21,4 +20,4 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task0.V25.Lib
             return res;
         }
     }
-}  
+}
