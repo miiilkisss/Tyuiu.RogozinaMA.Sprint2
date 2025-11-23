@@ -41,4 +41,4 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13.Lib
             return Math.Round(y, 3);
         }
     }
-}
+} 

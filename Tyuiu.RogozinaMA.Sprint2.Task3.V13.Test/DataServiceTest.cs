@@ -74,4 +74,4 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13.Test
             ds.Calculate(x);
         }
     }
-}
+} 

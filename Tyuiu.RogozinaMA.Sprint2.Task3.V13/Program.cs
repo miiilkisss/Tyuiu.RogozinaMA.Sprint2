@@ -40,7 +40,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            try 
+            try
             {
                 double result = ds.Calculate(x);
                 Console.WriteLine($"Значение функции Y при X = {x} равно {result:F3}");
@@ -57,4 +57,4 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13
             Console.ReadLine();
         }
     }
-}
+} 
