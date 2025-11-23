@@ -47,7 +47,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task0.V25.Test
             bool[] res = ds.GetCompareOperations(x, y);
             Assert.AreEqual(true, res[2]); // x - 100 < y → 105 < 159
         }
-         
+          
         [TestMethod]
         public void ValidGetCompareOperationsFourthOperation()
         {
