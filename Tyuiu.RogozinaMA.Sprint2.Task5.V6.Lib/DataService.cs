@@ -10,7 +10,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task5.V6.Lib
             string suit = "";
             string rank = "";
 
-            // Определяем масть карты
+            
             switch (value1)
             {
                 case 1:
@@ -29,7 +29,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task5.V6.Lib
                     throw new ArgumentException("Некорректный номер масти. Допустимые значения: 1-4");
             }
 
-            // Определяем достоинство карты
+            
             switch (value2)
             {
                 case 6:
