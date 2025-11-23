@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Tyuiu.RogozinaMA.Sprint2.Task0.V25.Lib;
 
 namespace Tyuiu.RogozinaMA.Sprint2.Task0.V25
@@ -43,7 +38,6 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task0.V25
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            // Получение результата через библиотеку
             bool[] result = ds.GetCompareOperations(x, y);
 
             Console.WriteLine("Результат сравнений:");
@@ -58,4 +52,4 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task0.V25
             Console.ReadLine();
         }
     }
-} 
+}
