@@ -13,7 +13,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 6;
             string res = ds.FindCardValue(value);
-            string wait = "Шестерка";
+            string wait = "шестерка";
             Assert.AreEqual(wait, res);
         }
 
@@ -23,7 +23,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 7;
             string res = ds.FindCardValue(value);
-            string wait = "Семерка";
+            string wait = "семерка";
             Assert.AreEqual(wait, res);
         }
 
@@ -33,7 +33,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 8;
             string res = ds.FindCardValue(value);
-            string wait = "Восьмерка";
+            string wait = "восьмерка";
             Assert.AreEqual(wait, res);
         }
 
@@ -43,7 +43,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 9;
             string res = ds.FindCardValue(value);
-            string wait = "Девятка";
+            string wait = "девятка";
             Assert.AreEqual(wait, res);
         }
 
@@ -53,7 +53,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 10;
             string res = ds.FindCardValue(value);
-            string wait = "Десятка";
+            string wait = "десятка";
             Assert.AreEqual(wait, res);
         }
 
@@ -63,7 +63,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 11;
             string res = ds.FindCardValue(value);
-            string wait = "Валет";
+            string wait = "валет";
             Assert.AreEqual(wait, res);
         }
 
@@ -73,7 +73,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 12;
             string res = ds.FindCardValue(value);
-            string wait = "Дама";
+            string wait = "дама";
             Assert.AreEqual(wait, res);
         }
 
@@ -83,7 +83,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 13;
             string res = ds.FindCardValue(value);
-            string wait = "Король";
+            string wait = "король";
             Assert.AreEqual(wait, res);
         }
 
@@ -93,7 +93,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task6.V5.Test
             DataService ds = new DataService();
             int value = 14;
             string res = ds.FindCardValue(value);
-            string wait = "Туз";
+            string wait = "туз";
             Assert.AreEqual(wait, res);
         }
 
