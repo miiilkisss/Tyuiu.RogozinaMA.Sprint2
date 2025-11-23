@@ -78,4 +78,4 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task0.V25.Test
             Assert.AreEqual(false, res[5]); // x - 46 >= y + 1 → 159 >= 160
         }
     }
-}
+} 
