@@ -33,31 +33,31 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task5.V6.Lib
             switch (value2)
             {
                 case 6:
-                    rank = "Шестерка";
+                    rank = "шестерка";
                     break;
                 case 7:
-                    rank = "Семерка";
+                    rank = "семерка";
                     break;
                 case 8:
-                    rank = "Восьмерка";
+                    rank = "восьмерка";
                     break;
                 case 9:
-                    rank = "Девятка";
+                    rank = "девятка";
                     break;
                 case 10:
-                    rank = "Десятка";
+                    rank = "десятка";
                     break;
                 case 11:
-                    rank = "Валет";
+                    rank = "валет";
                     break;
                 case 12:
-                    rank = "Дама";
+                    rank = "дама";
                     break;
                 case 13:
-                    rank = "Король";
+                    rank = "король";
                     break;
                 case 14:
-                    rank = "Туз";
+                    rank = "туз";
                     break;
                 default:
                     throw new ArgumentException("Некорректный номер достоинства. Допустимые значения: 6-14");
