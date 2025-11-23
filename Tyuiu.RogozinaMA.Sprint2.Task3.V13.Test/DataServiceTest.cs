@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tyuiu.RogozinaMA.Sprint2.Task3.V13.Lib;
 
-namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13.Test
+namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13.Test 
 {
     [TestClass]
     public class DataServiceTest

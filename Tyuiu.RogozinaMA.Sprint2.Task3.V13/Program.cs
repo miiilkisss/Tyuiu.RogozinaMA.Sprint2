@@ -33,7 +33,7 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            // Автоматический расчет для X = -5
+            
             double x = -5;
             Console.WriteLine($"X = {x}");
 
