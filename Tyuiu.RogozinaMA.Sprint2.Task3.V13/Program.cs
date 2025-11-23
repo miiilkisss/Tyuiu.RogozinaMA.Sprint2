@@ -33,8 +33,9 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.Write("Введите значение X: ");
-            double x = Convert.ToDouble(Console.ReadLine());
+            // Автоматический расчет для X = -5
+            double x = -5;
+            Console.WriteLine($"X = {x}");
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
@@ -57,4 +58,4 @@ namespace Tyuiu.RogozinaMA.Sprint2.Task3.V13
             Console.ReadLine();
         }
     }
-} 
+}
